@@ -1,0 +1,41 @@
+.gameUI{
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 700px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.restartMenu{
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 100px;
+    width: 250px;
+    position : absolute;
+    font-size: 5rem;
+    left: 50%;
+    top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.restartMenu p{
+  top : -5.4rem;
+  position: relative;
+  float: left;
+  flex-wrap: nowrap;
+}
+
+.bgScore{
+  position : absolute;
+  font-size: 20rem;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  color: rgba(101, 102, 104, 0.37);
+}
